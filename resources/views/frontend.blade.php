@@ -44,181 +44,21 @@
         </div>
     </div>
 
-    <div class="popup-search-box">
-        <button class="searchClose"><img src="assets/img/icon/close.svg" alt="img"></button>
-        <form action="#">
-            <input type="text" placeholder="Search Here..">
-            <button type="submit"><img src="assets/img/icon/search-white.svg" alt="img"></button>
-        </form>
+    @include('frontend.common.header')
+
+    @yield('content')
+
+    @include('frontend.common.footer')
+
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
     </div>
 
-    <header class="nav-header header-layout1">
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container-fluid">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto ms-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li class="active menu-item-has-children">
-                                        <a href="#">
-                                            <span class="link-effect">
-                                                <span class="effect-1">HOME</span>
-                                                <span class="effect-1">HOME</span>
-                                            </span>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Digital Agency</a></li>
-                                            <li><a href="home-2.html">Creative Agency</a></li>
-                                            <li><a href="home-3.html">Design Studio</a></li>
-                                            <li><a href="home-4.html">Digital Marketing</a></li>
-                                            <li><a href="home-5.html">Modern Agency</a></li>
-                                            <li><a href="home-6.html">Creative Studio</a></li>
-                                            <li><a href="home-7.html">Startup Agency</a></li>
-                                            <li><a href="home-8.html">Personal Portfolio</a></li>
-                                            <li><a href="home-9.html">Portfolio Showcase</a></li>
-                                            <li><a href="home-10.html">Interactive Link</a></li>
-                                            <li><a href="home-11.html">Showcase Carousel</a></li>
-                                            <li><a href="home-12.html">Fullscreen Slideshow</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">
-                                            <span class="link-effect">
-                                                <span class="effect-1">PAGES</span>
-                                                <span class="effect-1">PAGES</span>
-                                            </span>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">About Page</a></li>
-                                            <li class="menu-item-has-children"><a href="service.html">Service Page</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="service.html">Service Version 1</a></li>
-                                                    <li><a href="service-2.html">Service Version 2</a></li>
-                                                    <li><a href="service-3.html">Service Version 3</a></li>
-                                                    <li><a href="service-details.html">Service Details Page</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="team.html">Team Page</a>
-                                            </li>
-                                            <li><a href="team-details.html">Team Details Page</a></li>
-                                            <li><a href="pricing.html">Pricing Page</a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop Page</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">FAQ Page</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">
-                                            <span class="link-effect">
-                                                <span class="effect-1">PORTFOLIO</span>
-                                                <span class="effect-1">PORTFOLIO</span>
-                                            </span>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="project.html">Portfolio Masonary</a></li>
-                                            <li><a href="project-2.html">Portfolio Pinterest</a></li>
-                                            <li><a href="project-3.html">Portfolio Gallery</a></li>
-                                            <li><a href="project-4.html">Portfolio Full Width</a></li>
-                                            <li><a href="project-5.html">Portfolio Slider</a></li>
-                                            <li><a href="project-6.html">Portfolio Interactive</a></li>
-                                            <li><a href="project-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">
-                                            <span class="link-effect">
-                                                <span class="effect-1">BLOG</span>
-                                                <span class="effect-1">BLOG</span>
-                                            </span>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog Standard</a></li>
-                                            <li><a href="blog-2.html">Blog 2 Column</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            <span class="link-effect">
-                                                <span class="effect-1">CONTACT</span>
-                                                <span class="effect-1">CONTACT</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <div class="navbar-right d-inline-flex d-lg-none">
-                                <button type="button" class="menu-toggle sidebar-btn">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <div class="header-button">
-                                <button type="button" class="search-btn searchBoxToggler"><img src="assets/img/icon/search.svg" alt="icon">
-                                    <span class="link-effect">
-                                        <span class="effect-1">SEARCH</span>
-                                        <span class="effect-1">SEARCH</span>
-                                    </span>
-                                </button>
-                                <button type="button" class="sidebar-btn sideMenuToggler">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="hero-wrapper hero-1" id="hero">
-        <div class="container">
-            <div class="hero-style1">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="hero-title wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1s">Next Generation</h1>
-
-                        <h1 class="hero-title text-lg-end wow img-custom-anim-right" data-wow-duration="1.7s" data-wow-delay="0.1s">Digital Agency</h1>
-                    </div>
-                    <div class="col-lg-6 offset-lg-6">
-                        <p class="hero-text wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.1s">We are digital agency that helps businesses develop immersive and engaging user experiences that drive top level growth</p>
-                        <div class="btn-group fade_right">
-                            <a href="project.html" class="btn wow img-custom-anim-right" >
-                                <span class="link-effect">
-                                    <span class="effect-1">VIEW OUR WORKS</span>
-                                    <span class="effect-1">VIEW OUR WORKS</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-year-tag wow img-custom-anim-left">
-                    <img src="assets/img/icon/worldwide.svg" alt="img">
-                    <h6>Agency of this year worldwide</h6>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <script src="{{ asset('assets/frontend/js/vendor/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/slick.min.js') }}"></script>
