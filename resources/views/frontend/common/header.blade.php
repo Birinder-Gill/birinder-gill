@@ -132,7 +132,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -275,7 +275,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact.html">
+                                    <a href="/contact">
                                         <span class="link-effect">
                                             <span class="effect-1">CONTACT</span>
                                             <span class="effect-1">CONTACT</span>

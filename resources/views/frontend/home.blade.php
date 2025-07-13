@@ -152,4 +152,334 @@
             </div>
         </div>
     </div>
+
+    {{-- Portfolio --}}
+    <div class="portfolio-area-1 space-bottom overflow-hidden" data-bg-src="{{ asset('assets/img/bg/portfolio-1-bg.png') }}">
+        <div class="container">
+            <div class="row justify-content-between masonary-active">
+                <div class="col-lg-6 filter-item">
+                    <div class="portfolio-wrap mt-lg-140">
+                        <div class="portfolio-thumb wow img-custom-anim-top" data-wow-duration="1.5s"
+                            data-wow-delay="0.2s">
+                            <a href="project-details.html">
+                                <img src="{{ asset('assets/img/portfolio/portfolio1_1.jpg') }}" alt="portfolio">
+                            </a>
+                        </div>
+                        <div class="portfolio-details">
+                            <ul class="portfolio-meta">
+                                <li><a href="blog.html">Branding</a></li>
+                                <li><a href="blog.html">Development</a></li>
+                                <li><a href="blog.html">Marketing</a></li>
+                            </ul>
+                            <h3 class="portfolio-title"><a href="project-details.html">Money Laundering Compliance
+                                    Scanner</a></h3>
+                            <a href="project-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 filter-item">
+                    <div class="portfolio-wrap mt-140 mt-lg-0">
+                        <div class="portfolio-thumb wow img-custom-anim-left" data-wow-duration="1.5s"
+                            data-wow-delay="0.2s">
+                            <a href="project-details.html">
+                                <img src="{{ asset('assets/img/portfolio/portfolio1_2.jpg') }}" alt="portfolio">
+                            </a>
+                        </div>
+                        <div class="portfolio-details">
+                            <ul class="portfolio-meta">
+                                <li><a href="blog.html">Branding</a></li>
+                                <li><a href="blog.html">Development</a></li>
+                                <li><a href="blog.html">Marketing</a></li>
+                            </ul>
+                            <h3 class="portfolio-title"><a href="project-details.html">Decentralized Lending Platform for
+                                    Students</a></h3>
+                            <a href="project-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 filter-item">
+                    <div class="portfolio-wrap mt-140">
+                        <div class="portfolio-thumb wow img-custom-anim-top" data-wow-duration="1.5s"
+                            data-wow-delay="0.2s">
+                            <a href="project-details.html">
+                                <img src="{{ asset('assets/img/portfolio/portfolio1_3.jpg') }}" alt="portfolio">
+                            </a>
+                        </div>
+                        <div class="portfolio-details">
+                            <ul class="portfolio-meta">
+                                <li><a href="blog.html">Branding</a></li>
+                                <li><a href="blog.html">Development</a></li>
+                                <li><a href="blog.html">Marketing</a></li>
+                            </ul>
+                            <h3 class="portfolio-title"><a href="project-details.html">Anti Money Laundering Compliance
+                                    Scanner</a></h3>
+                            <a href="project-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 filter-item">
+                    <div class="portfolio-wrap mt-140">
+                        <div class="portfolio-thumb wow img-custom-anim-left" data-wow-duration="1.5s"
+                            data-wow-delay="0.2s">
+                            <a href="project-details.html">
+                                <img src="{{ asset('assets/img/portfolio/portfolio1_4.jpg') }}" alt="portfolio">
+                            </a>
+                        </div>
+                        <div class="portfolio-details">
+                            <ul class="portfolio-meta">
+                                <li><a href="blog.html">Branding</a></li>
+                                <li><a href="blog.html">Development</a></li>
+                                <li><a href="blog.html">Marketing</a></li>
+                            </ul>
+                            <h3 class="portfolio-title"><a href="project-details.html">Shopify Redesign for a Nova Scotia
+                                    Winery</a></h3>
+                            <a href="project-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                    <span class="effect-1">VIEW PROJECT</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto filter-item">
+                    <div class="btn-wrap mt-140">
+                        <a class="circle-btn btn gsap-magnetic mx-lg-5" href="project.html">
+                            <span class="link-effect">
+                                <span class="effect-1">VIEW ALL</span>
+                                <span class="effect-1">VIEW ALL</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Team Area --}}
+    <div class="team-area-1 space overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="title-area text-center">
+                        <h2 class="sec-title">Our Team Behind The Studio</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-card_img">
+                            <img src="{{ asset('assets/img/team/team-1-1.png') }}" alt="Team Image">
+                        </div>
+                        <div class="team-card_content">
+                            <h3 class="team-card_title"><a href="team-details.html">Daniyel Karlos</a></h3>
+                            <span class="team-card_desig">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-card_img">
+                            <img src="{{ asset('assets/img/team/team-1-2.png') }}" alt="Team Image">
+                        </div>
+                        <div class="team-card_content">
+                            <h3 class="team-card_title"><a href="team-details.html">Daniyel Karlos</a></h3>
+                            <span class="team-card_desig">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-card_img">
+                            <img src="{{ asset('assets/img/team/team-1-3.png') }}" alt="Team Image">
+                        </div>
+                        <div class="team-card_content">
+                            <h3 class="team-card_title"><a href="team-details.html">Daniyel Karlos</a></h3>
+                            <span class="team-card_desig">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-card_img">
+                            <img src="{{ asset('assets/img/team/team-1-4.png') }}" alt="Team Image">
+                        </div>
+                        <div class="team-card_content">
+                            <h3 class="team-card_title"><a href="team-details.html">Daniyel Karlos</a></h3>
+                            <span class="team-card_desig">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Testimonial --}}
+    <div class="testimonial-area-1 space bg-theme">
+        <div class="testimonial-img-1-1 shape-mockup wow img-custom-anim-right" data-wow-duration="1.5s"
+            data-wow-delay="0.2s" data-right="0" data-top="-100px" data-bottom="140px">
+            <img src="{{ asset('assets/img/testimonial/testi_thumb1_1.jpg') }}" alt="img">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title-area ">
+                        <h2 class="sec-title">Testimonials</h2>
+                    </div>
+                    <div class="quote-icon ">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="icon">
+                    </div>
+                    <div class="row global-carousel testi-slider1" data-slide-show="1" data-dots="true"
+                        data-xl-dots="true" data-ml-dots="true">
+                        <div class="col-lg-4">
+                            <div class="testi-box ">
+                                <p class="testi-box_text">“It’s a pleasure working with Bunker. They understood our new
+                                    brand positioning guidelines and translated them beautifully and consistently into our
+                                    on-going marketing comms. The team is responsive, quick and always willing help winning
+                                    partnership”</p>
+                                <div class="testi-box_profile">
+                                    <h4 class="testi-box_name">Daniyel Karlos</h4>
+                                    <span class="testi-box_desig">Senior Director of Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testi-box ">
+                                <p class="testi-box_text">“It’s a pleasure working with Bunker. They understood our new
+                                    brand positioning guidelines and translated them beautifully and consistently into our
+                                    on-going marketing comms. The team is responsive, quick and always willing help winning
+                                    partnership”</p>
+                                <div class="testi-box_profile">
+                                    <h4 class="testi-box_name">Daniyel Karlos</h4>
+                                    <span class="testi-box_desig">Senior Director of Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testi-box ">
+                                <p class="testi-box_text">“It’s a pleasure working with Bunker. They understood our new
+                                    brand positioning guidelines and translated them beautifully and consistently into our
+                                    on-going marketing comms. The team is responsive, quick and always willing help winning
+                                    partnership”</p>
+                                <div class="testi-box_profile">
+                                    <h4 class="testi-box_name">Daniyel Karlos</h4>
+                                    <span class="testi-box_desig">Senior Director of Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- Blog Area --}}
+    <section class="blog-area space">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-xl-6 col-lg-8">
+                    <div class="title-area text-center">
+                        <h2 class="sec-title">Read Our Articles and News</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-40 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <a href="blog-details.html">
+                                <img src="{{ asset('assets/img/blog/blog_1_1.png') }}" alt="blog image">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta-item blog-meta">
+                                <a href="blog.html">March 26, 2024</a>
+                                <a href="blog.html">Branding</a>
+                            </div>
+                            <h4 class="blog-title"><a href="blog-details.html">Everything You Should Know About Return</a>
+                            </h4>
+                            <a href="blog-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">READ MORE</span>
+                                    <span class="effect-1">READ MORE</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <a href="blog-details.html">
+                                <img src="{{ asset('assets/img/blog/blog_1_2.png') }}" alt="blog image">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta-item blog-meta">
+                                <a href="blog.html">March 26, 2024</a>
+                                <a href="blog.html">Branding</a>
+                            </div>
+                            <h4 class="blog-title"><a href="blog-details.html">6 Big Commerce Design Tips For Big
+                                    Results</a></h4>
+                            <a href="blog-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">READ MORE</span>
+                                    <span class="effect-1">READ MORE</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <a href="blog-details.html">
+                                <img src="{{ asset('assets/img/blog/blog_1_3.png') }}" alt="blog image">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta-item blog-meta">
+                                <a href="blog.html">March 26, 2024</a>
+                                <a href="blog.html">Branding</a>
+                            </div>
+                            <h4 class="blog-title"><a href="blog-details.html">Four Steps to Conduct a Successful
+                                    Usability</a></h4>
+                            <a href="blog-details.html" class="link-btn">
+                                <span class="link-effect">
+                                    <span class="effect-1">READ MORE</span>
+                                    <span class="effect-1">READ MORE</span>
+                                </span>
+                                <img src="{{ asset('assets/img/icon/arrow-left-top.svg') }}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
