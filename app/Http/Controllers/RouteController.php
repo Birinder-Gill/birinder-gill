@@ -15,4 +15,9 @@ class RouteController extends Controller
     {
         return view('frontend.contact');
     }
+
+    public function uiUxDesign()
+    {
+        return view('frontend.services.ui_design');
+    }
 }

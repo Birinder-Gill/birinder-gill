@@ -188,29 +188,29 @@
                     <div class="col-auto ms-auto">
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li class="active menu-item-has-children">
-                                    <a href="#">
+                                <li>
+                                    <a href="/">
                                         <span class="link-effect">
                                             <span class="effect-1">HOME</span>
                                             <span class="effect-1">HOME</span>
                                         </span>
                                     </a>
-                                    <ul class="sub-menu">
-                                        <li class="active"><a href="index.html">Digital Agency</a></li>
-                                        <li><a href="home-2.html">Creative Agency</a></li>
-                                        <li><a href="home-3.html">Design Studio</a></li>
-                                        <li><a href="home-4.html">Digital Marketing</a></li>
-                                        <li><a href="home-5.html">Modern Agency</a></li>
-                                        <li><a href="home-6.html">Creative Studio</a></li>
-                                        <li><a href="home-7.html">Startup Agency</a></li>
-                                        <li><a href="home-8.html">Personal Portfolio</a></li>
-                                        <li><a href="home-9.html">Portfolio Showcase</a></li>
-                                        <li><a href="home-10.html">Interactive Link</a></li>
-                                        <li><a href="home-11.html">Showcase Carousel</a></li>
-                                        <li><a href="home-12.html">Fullscreen Slideshow</a></li>
-                                    </ul>
                                 </li>
                                 <li class="menu-item-has-children">
+                                    <a href="#">
+                                        <span class="link-effect">
+                                            <span class="effect-1">SERVICES</span>
+                                            <span class="effect-1">SERVICES</span>
+                                        </span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="/ui-ux-design">UI/UX Design</a></li>
+                                        <li><a href="/">Web Development</a></li>
+                                        <li><a href="/">Mobile Development</a></li>
+                                        <li><a href="/">Digital Marketing</a></li>
+                                    </ul>
+                                </li>
+                                {{-- <li class="menu-item-has-children">
                                     <a href="#">
                                         <span class="link-effect">
                                             <span class="effect-1">PAGES</span>
@@ -243,7 +243,7 @@
                                         <li><a href="faq.html">FAQ Page</a></li>
                                         <li><a href="error.html">Error Page</a></li>
                                     </ul>
-                                </li>
+                                </li> --}}
                                 <li class="menu-item-has-children">
                                     <a href="#">
                                         <span class="link-effect">
