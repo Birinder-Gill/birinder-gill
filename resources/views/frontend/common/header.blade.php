@@ -205,7 +205,7 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li><a href="/ui-ux-design">UI/UX Design</a></li>
-                                        <li><a href="/">Web Development</a></li>
+                                        <li><a href="/web-development">Web Development</a></li>
                                         <li><a href="/">Mobile Development</a></li>
                                         <li><a href="/">Digital Marketing</a></li>
                                     </ul>

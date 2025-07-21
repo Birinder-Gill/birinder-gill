@@ -20,4 +20,9 @@ class RouteController extends Controller
     {
         return view('frontend.services.ui_design');
     }
+
+    public function webDevelopment()
+    {
+        return view('frontend.services.web_development');
+    }
 }

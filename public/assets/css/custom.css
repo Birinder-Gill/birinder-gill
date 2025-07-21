@@ -1,0 +1,234 @@
+/* Minimalist Custom Tab Styles */
+.custom-tab-section {
+    padding: 6rem 0;
+}
+
+.custom-tab-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.custom-nav-tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #dee2e6;
+    list-style: none;
+    padding: 0;
+    /* position: sticky;
+    top: 110px; */
+    background: #fff;
+    /* transition: box-shadow 0.3s ease; */
+}
+
+/* .custom-nav-tabs.sticky-shadow {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+} */
+
+.custom-nav-item {
+    margin: 0;
+}
+
+.custom-nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border: none;
+    background: transparent;
+    transition: color 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.custom-nav-link:hover {
+    color: #212529;
+}
+
+.custom-nav-link.active {
+    color: #212529;
+    font-weight: 600;
+}
+
+.custom-nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: #212529;
+    border-radius: 1px;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s;
+    pointer-events: none;
+}
+
+.custom-nav-link.active::after {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.custom-tab-content {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.custom-tab-pane {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.custom-tab-pane.active {
+    display: block;
+    opacity: 1;
+}
+
+.custom-tab-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #495057;
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-tab-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.custom-tab-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.custom-tab-features li {
+    padding: 1rem 1.5rem;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #495057;
+    font-size: 0.95rem;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.custom-tab-features li::before {
+    content: '•';
+    color: #212529;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.custom-tab-features li:hover {
+    background: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.tech-stack-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.teck-stack-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+.teck-stack-logo p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.teck-stack-logo img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-tab-title {
+        font-size: 2rem;
+    }
+
+    .custom-nav-tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .custom-nav-link {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .custom-tab-content {
+        padding: 1.5rem 0;
+    }
+
+    .custom-tab-text {
+        font-size: 1rem;
+    }
+
+    .custom-tab-icon {
+        font-size: 2.5rem;
+    }
+
+    .custom-tab-features {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .custom-tab-features li {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-tab-section {
+        padding: 3rem 0;
+    }
+
+    .custom-tab-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .custom-nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .custom-tab-text {
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+
+    .custom-tab-icon {
+        font-size: 2rem;
+    }
+}

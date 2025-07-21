@@ -8,3 +8,5 @@ Route::get('/', [RouteController::class, 'index']);
 Route::get('/contact', [RouteController::class, 'contact']);
 
 Route::get('/ui-ux-design', [RouteController::class, 'uiUxDesign']);
+
+Route::get('/web-development', [RouteController::class, 'webDevelopment']);
