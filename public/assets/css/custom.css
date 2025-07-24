@@ -169,6 +169,51 @@
     object-fit: contain;
 }
 
+/* Development Types Section */
+.development-types-section {
+    padding: 6rem 0;
+}
+
+.development-card {
+    background: #ffffff;
+    padding: 2rem 1.5rem;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    text-align: center;
+    height: 100%;
+}
+
+.development-card:hover {
+    border-color: #dee2e6;
+    transform: translateY(-2px);
+}
+
+.development-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1.5rem;
+    background: var(--theme-color);
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.development-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.development-text {
+    line-height: 1.6;
+    margin: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .custom-tab-title {
@@ -206,6 +251,29 @@
         padding: 0.75rem 1rem;
         font-size: 0.9rem;
     }
+
+    .development-types-section {
+        padding: 3rem 0;
+    }
+    
+    .development-card {
+        padding: 1.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .development-title {
+        font-size: 1.1rem;
+    }
+    
+    .development-text {
+        font-size: 0.9rem;
+    }
+    
+    .development-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -230,5 +298,21 @@
 
     .custom-tab-icon {
         font-size: 2rem;
+    }
+
+    .development-types-section {
+        padding: 2.5rem 0;
+    }
+    
+    .development-card {
+        padding: 1.25rem 0.75rem;
+    }
+    
+    .development-title {
+        font-size: 1rem;
+    }
+    
+    .development-text {
+        font-size: 0.85rem;
     }
 }
