@@ -170,7 +170,6 @@
                     <div class="custom-tab-content" id="serviceTabsContent">
                         <div class="custom-tab-pane active" id="custom-code" role="tabpanel"
                             aria-labelledby="tab-custom-code">
-                             @include('frontend.services.web-development.no_code_tab')
                             @include('frontend.services.web-development.custom_code_tab')
                         </div>
                         <div class="custom-tab-pane" id="no-code" role="tabpanel" aria-labelledby="tab-no-code">
@@ -182,10 +181,9 @@
         </div>
     </div>
 
-
-
-    {{-- Include Custom CSS --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+    {{-- Process Timeline Section --}}
+    @include('frontend.services.web-development.process_timeline')
+  
 
     {{-- Simple Tab JavaScript --}}
     <script>

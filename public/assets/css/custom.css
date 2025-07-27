@@ -5,8 +5,7 @@
 
 .custom-tab-title {
     font-size: 2.5rem;
-    font-weight: 600;
-    color: #212529;
+    font-weight: 600; 
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -214,7 +213,219 @@
     margin: 0;
 }
 
+/* Process Timeline Styles */
+.process-timeline-section {
+    background-color: #f8f9fa;
+}
+
+.sub-title {
+    color: #6366f1;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.process-content {
+    padding-left: 20px;
+}
+
+.process-step {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.process-step:not(:last-child):before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 60px;
+    width: 2px;
+    height: calc(100% + 20px);
+    background: #e5e7eb;
+    z-index: 1;
+}
+
+.process-number {
+    width: 45px;
+    height: 45px;
+    background: #6366f1;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.process-number:hover {
+    background: #4f46e5;
+    transform: scale(1.1);
+}
+
+.process-info {
+    flex: 1;
+    padding-top: 5px;
+}
+
+.process-phase {
+    color: #6366f1;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.process-text {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.process-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 40px 0;
+}
+
+.process-image img {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.process-image img:hover {
+    transform: translateY(-5px);
+}
+
+/* Backend & Hosting Section */
+.backend-hosting-section {
+    background-color: #ffffff;
+    padding: 8rem 0;
+}
+
+.backend-hosting-section .feature-card {
+    text-align: center;
+    height: 100%;
+}
+
+.backend-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.backend-icon-item {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e2e8f0;
+}
+
+.backend-icon-item img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* Mobile Types Section - Using Theme Classes */
+.mobile-types-section {
+    background: var(--theme-color) !important;
+    padding: 8rem 0;
+}
+
+.mobile-types-section .feature-card-icon {
+    background: var(--theme-color);
+    color: #1a1a1a;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.mobile-types-section .feature-card-icon:hover {
+    background: #c0ca33;
+    transform: scale(1.05);
+}
+
+.ui-ux-service-do .blog-img img {
+  height: 302px !important;
+  width: 302px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .mobile-types-section {
+        padding: 6rem 0;
+    }
+}
+
 /* Responsive Design */
+@media (max-width: 991px) {
+    .process-visual {
+        margin-top: 40px;
+    }
+    
+    .process-content {
+        padding-left: 0;
+    }
+    
+    .process-step:not(:last-child):before {
+        left: 22px;
+    }
+    
+    .mobile-types-section {
+        padding: 6rem 0;
+    }
+    
+    .mobile-type-card {
+        padding: 2rem 1.5rem;
+        flex-direction: row;
+        text-align: left;
+        gap: 1.25rem;
+    }
+    
+    .mobile-type-card.large {
+        padding: 2rem 1.5rem;
+    }
+    
+    .mobile-type-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .mobile-type-title {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 768px) {
     .custom-tab-title {
         font-size: 2rem;
@@ -274,6 +485,34 @@
         height: 50px;
         font-size: 1.3rem;
     }
+
+    /* Process Timeline Mobile Styles */
+    .process-number {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    
+    .process-step:not(:last-child):before {
+        left: 20px;
+    }
+    
+    .process-title {
+        font-size: 18px;
+    }
+    
+    .process-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-type-card {
+        padding: 1.5rem 1.25rem;
+        gap: 1rem;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -314,5 +553,28 @@
     
     .development-text {
         font-size: 0.85rem;
+    }
+
+    .backend-hosting-section {
+        padding: 6rem 0;
+    }
+    
+    .backend-icons {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .backend-icon-item {
+        width: 50px;
+        height: 50px;
+    }
+
+    .backend-icon-item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .sec-title-small {
+        font-size: 1.75rem;
     }
 }

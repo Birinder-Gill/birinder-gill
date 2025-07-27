@@ -5330,6 +5330,10 @@ ul.wp-block-latest-posts li:last-child {
   padding-bottom: 15px;
 }
 
+.header-logo img { 
+  height: 35px;
+}
+
 .header-links > ul {
   margin: 0;
   padding: 0;
@@ -6403,7 +6407,7 @@ ul.wp-block-latest-posts li:last-child {
 
 .hero-style5 {
   padding-top: 270px;
-  padding-bottom: 75px;
+  padding-bottom: 200px;
 }
 .hero-style5 .hero-title {
   font-size: 160px;

@@ -78,13 +78,8 @@
         <div class="teck-stack-logo">
             <img src="{{ asset('assets/img/icon/zapier.webp') }}" alt="Zapier">
             <p>Zapier</p>
-        </div>
-
-        <div class="teck-stack-logo">
-            <img src="{{ asset('assets/img/icon/make.webp') }}" alt="Make">
-            <p>Make</p>
-        </div>
-
+        </div> 
+        
         <div class="teck-stack-logo">
             <img src="{{ asset('assets/img/icon/n8n.webp') }}" alt="n8n">
             <p>n8n</p>

@@ -9,7 +9,7 @@
                     <div class="col-lg-12">
                         <h1 class="hero-title wow img-custom-anim-left">UI/UX Design</h1>
                         <div class="hero-3-thumb wow img-custom-anim-top">
-                            <img class="w-100" src="{{ asset('assets/img/hero/hero-3-1.jpg') }}" alt="img">
+                            <img class="w-100" src="{{ asset('assets/img/hero/ui-ux-hero.webp') }}" alt="img">
                         </div>
                         <h1 class="hero-title text-end wow img-custom-anim-right">with Experience</h1>
                     </div>
@@ -64,7 +64,7 @@
     <div class="why-area-1 space bg-theme">
         <div class="why-img-1-1 shape-mockup wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s"
             data-right="0" data-top="-100px" data-bottom="140px">
-            <img src="{{ asset('assets/img/normal/why_3-1.jpg') }}" alt="img">
+            <img src="{{ asset('assets/img/normal/ui-ux-banner.webp') }}" alt="img">
         </div>
         <div class="container">
             <div class="row">
@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <section class="blog-area-3 space bg-smoke">
+    <section class="blog-area-3 space bg-smoke ui-ux-service-do">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xxl-4 col-xl-5 position-relative">
@@ -152,7 +152,7 @@
                             <div class="blog-grid">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/blog/blog_3_1.png') }}" alt="blog image">
+                                        <img src="{{ asset('assets/img/normal/brand-identity-design.webp') }}" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">
@@ -168,7 +168,7 @@
                             <div class="blog-grid">
                                 <div class="blog-img">
                                     <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/blog/blog_3_2.png') }}" alt="blog image">
+                                        <img src="{{ asset('assets/img/normal/custom-logo-design.webp') }}" alt="blog image">
                                     </a>
                                 </div>
                                 <div class="blog-content">

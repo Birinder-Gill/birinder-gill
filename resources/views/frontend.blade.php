@@ -9,7 +9,13 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Laravel</title>
+    <title>Birinder Gill{{ isset($title) ? ' - ' . $title : '' }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon.png') }}">
 
     {{-- Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +38,7 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 </head>
 
 <body>

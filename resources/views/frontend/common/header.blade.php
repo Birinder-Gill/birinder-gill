@@ -63,7 +63,7 @@
     <div class="mobile-menu-area">
         <button class="menu-toggle"><i class="fas fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo.svg" alt="Ovation"></a>
+            <a href="/"><img src="assets/img/logo.webp" alt="Logo"></a>
         </div>
         <div class="mobile-menu">
             <ul>
@@ -182,7 +182,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.html"><img src="{{ asset('assets/img/logo.svg') }}" alt="logo"></a>
+                            <a href="/"><img src="{{ asset('assets/img/logo.svg') }}" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-auto ms-auto">
@@ -206,74 +206,18 @@
                                     <ul class="sub-menu">
                                         <li><a href="/ui-ux-design">UI/UX Design</a></li>
                                         <li><a href="/web-development">Web Development</a></li>
-                                        <li><a href="/">Mobile Development</a></li>
-                                        <li><a href="/">Digital Marketing</a></li>
+                                        <li><a href="/mobile-development">Mobile Development</a></li>
+                                        <li><a href="/digital-marketing">Digital Marketing</a></li>
                                     </ul>
                                 </li>
-                                {{-- <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="link-effect">
-                                            <span class="effect-1">PAGES</span>
-                                            <span class="effect-1">PAGES</span>
-                                        </span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About Page</a></li>
-                                        <li class="menu-item-has-children"><a href="service.html">Service Page</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="service.html">Service Version 1</a></li>
-                                                <li><a href="service-2.html">Service Version 2</a></li>
-                                                <li><a href="service-3.html">Service Version 3</a></li>
-                                                <li><a href="service-details.html">Service Details Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="team.html">Team Page</a>
-                                        </li>
-                                        <li><a href="team-details.html">Team Details Page</a></li>
-                                        <li><a href="pricing.html">Pricing Page</a></li>
-                                        <li class="menu-item-has-children"><a href="shop.html">Shop</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop Page</a></li>
-                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="faq.html">FAQ Page</a></li>
-                                        <li><a href="error.html">Error Page</a></li>
-                                    </ul>
-                                </li> --}}
-                                <li class="menu-item-has-children">
-                                    <a href="#">
+                                <li>
+                                    <a href="/contact">
                                         <span class="link-effect">
                                             <span class="effect-1">PORTFOLIO</span>
                                             <span class="effect-1">PORTFOLIO</span>
                                         </span>
                                     </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="project.html">Portfolio Masonary</a></li>
-                                        <li><a href="project-2.html">Portfolio Pinterest</a></li>
-                                        <li><a href="project-3.html">Portfolio Gallery</a></li>
-                                        <li><a href="project-4.html">Portfolio Full Width</a></li>
-                                        <li><a href="project-5.html">Portfolio Slider</a></li>
-                                        <li><a href="project-6.html">Portfolio Interactive</a></li>
-                                        <li><a href="project-details.html">Portfolio Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="link-effect">
-                                            <span class="effect-1">BLOG</span>
-                                            <span class="effect-1">BLOG</span>
-                                        </span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Standard</a></li>
-                                        <li><a href="blog-2.html">Blog 2 Column</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
+                                </li> 
                                 <li>
                                     <a href="/contact">
                                         <span class="link-effect">
