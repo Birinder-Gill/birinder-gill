@@ -379,6 +379,150 @@
   width: 302px !important;
 }
 
+/* Solution for Every Stage Section */
+.solution-stage-accordion {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.solution-stage-item {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.solution-stage-item:hover {
+    border-color: #dee2e6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.solution-stage-header {
+    padding: 24px 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.solution-stage-header:hover {
+    background: #e9ecef;
+}
+
+.solution-stage-header[aria-expanded="true"] {
+    background: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.solution-stage-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.solution-stage-icon {
+    width: 32px;
+    height: 32px;
+    background: #212529;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.solution-stage-icon i {
+    color: #ffffff;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.solution-stage-header[aria-expanded="true"] .solution-stage-icon {
+    background: var(--theme-color);
+    transform: rotate(180deg);
+}
+
+.solution-stage-header[aria-expanded="true"] .solution-stage-icon i {
+    color: #000000;
+}
+
+.solution-stage-content {
+    background: #ffffff;
+}
+
+/* Fix for accordion collapse visibility */
+.solution-stage-content.collapse:not(.show) {
+    display: none !important;
+    visibility: visible !important;
+}
+
+.solution-stage-content.collapse.show {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.solution-stage-content.collapsing {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.solution-stage-body {
+    padding: 32px;
+    border-top: none;
+}
+
+.solution-stage-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 24px;
+}
+
+.solution-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+}
+
+.solution-features li {
+    padding: 12px 16px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    color: #495057;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 40px;
+    transition: all 0.3s ease;
+}
+
+.solution-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00C203;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.solution-features li:hover {
+    background: #e9ecef;
+    border-color: #dee2e6;
+}
+
 /* Responsive adjustments */
 @media (max-width: 991px) {
     .mobile-types-section {
@@ -577,4 +721,83 @@
     .sec-title-small {
         font-size: 1.75rem;
     }
+}
+
+/* Digital Marketing Services - Icon Styling */
+.digital-marketing-services .feature-card-icon {
+    background-color: var(--theme-color) !important;
+    border-radius: 50% !important;
+    width: 80px !important;
+    height: 80px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 0 1.5rem !important;
+}
+
+.digital-marketing-services .feature-card-icon i {
+    font-size: 2rem !important;
+    color: #000 !important;
+}
+
+/* Alternative fallback for digital marketing page specifically */
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .main-menu ul li a,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .main-menu ul li a .effect-1,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-link,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-logo .logo-text,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .search-btn,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .sidebar-btn,
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-button .link-effect .effect-1 {
+    color: #ffffff !important;
+}
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .sidebar-btn {
+    border-color: white !important;
+}
+
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .sidebar-btn .line {
+    background-color: white !important;
+}
+
+/* Digital Marketing Page - White Search Icon */
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .search-btn img {
+    opacity: 0 !important;
+}
+
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .search-btn {
+    position: relative;
+}
+
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .search-btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url('../img/icon/search-white.svg') no-repeat center;
+    background-size: contain;
+    z-index: 1;
+}
+
+/* Digital Marketing Page - Dark Logo */
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-logo img {
+    opacity: 0 !important;
+}
+
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-logo {
+    position: relative;
+}
+
+.digital-marketing-page .sticky-wrapper:not(.header-sticky) .header-logo::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: url('../img/logo-dark.svg') no-repeat left center;
+    background-size: contain;
+    z-index: 1;
 }

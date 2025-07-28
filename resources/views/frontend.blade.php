@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 </head>
 
-<body>
+<body class="@stack('body-class')">
     <div class="preloader">
         <div class="preloader-inner">
             <span></span>

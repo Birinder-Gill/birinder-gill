@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="hero-6-thumb wow img-custom-anim-top jarallax"
-            data-bg-src="{{ asset('assets/img/hero/hero-6-1.webp') }}">
+            data-bg-src="{{ asset('assets/img/hero/web-development-hero.webp') }}">
         </div>
     </div>
 
@@ -152,7 +152,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
-                    <h2 class="custom-tab-title">Our Services</h2>
+                    <h2 class="sec-title text-center">Our Services</h2>
                     <ul class="custom-nav-tabs" id="serviceTabs" role="tablist">
                         <li class="custom-nav-item" role="presentation">
                             <button class="custom-nav-link active" id="tab-custom-code" data-tab-target="custom-code"

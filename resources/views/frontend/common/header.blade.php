@@ -13,7 +13,7 @@
         <div class="widget footer-widget">
             <div class="widget-about">
                 <div class="footer-logo">
-                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Ovation"></a>
+                    <a href="/"><img src="{{ asset('assets/img/logo-dark.svg') }}" alt="Ovation"></a>
                 </div>
                 <p class="about-text">We are digital agency that helps businesses develop immersive and engaging</p>
                 <div class="sidebar-wrap">
@@ -63,7 +63,7 @@
     <div class="mobile-menu-area">
         <button class="menu-toggle"><i class="fas fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="/"><img src="assets/img/logo.webp" alt="Logo"></a>
+            <a href="/"><img src="assets/img/logo.svg" alt="Logo"></a>
         </div>
         <div class="mobile-menu">
             <ul>

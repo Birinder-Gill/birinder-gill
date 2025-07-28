@@ -100,7 +100,7 @@
                             <img src="{{ asset('assets/img/icon/feature-icon1-1.svg') }}" alt="icon">
                         </div>
                         <h4 class="feature-card-title">
-                            <a href="service.html">Why It’s Important</a>
+                            Why It’s Important
                         </h4>
                         <p class="feature-card-text">We guide you from brand identity to seamless user experiences, making
                             UI/UX simple and effective.</p>
@@ -112,7 +112,7 @@
                             <img src="{{ asset('assets/img/icon/feature-icon1-2.svg') }}" alt="icon">
                         </div>
                         <h4 class="feature-card-title">
-                            <a href="service.html">Why Invest in It</a>
+                            Why Invest in It
                         </h4>
                         <p class="feature-card-text">Great UI/UX drives growth—boosting leads, loyalty, and brand strength
                             with every interaction.</p>
@@ -124,7 +124,7 @@
                             <img src="{{ asset('assets/img/icon/feature-icon1-3.svg') }}" alt="icon">
                         </div>
                         <h4 class="feature-card-title">
-                            <a href="service.html">How We Help</a>
+                            How We Help
                         </h4>
                         <p class="feature-card-text">We analyze, design, and deliver intuitive solutions tailored to your
                             users and business goals.</p>
@@ -151,9 +151,9 @@
                         <div class="blog-grid-static">
                             <div class="blog-grid">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/normal/brand-identity-design.webp') }}" alt="blog image">
-                                    </a>
+                                    <img src="{{ asset('assets/img/normal/brand-identity-design.webp') }}"
+                                        alt="Brand Identity Design">
+
                                 </div>
                                 <div class="blog-content">
                                     <h4 class="blog-title">Brand Identity Design</h4>
@@ -167,9 +167,9 @@
                         <div class="blog-grid-static">
                             <div class="blog-grid">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/normal/custom-logo-design.webp') }}" alt="blog image">
-                                    </a>
+                                    <img src="{{ asset('assets/img/normal/custom-logo-design.webp') }}"
+                                        alt="Custom Logo Design">
+
                                 </div>
                                 <div class="blog-content">
                                     <h4 class="blog-title">Custom Logo Design</h4>
@@ -183,9 +183,9 @@
                         <div class="blog-grid-static">
                             <div class="blog-grid">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/blog/blog_3_3.png') }}" alt="blog image">
-                                    </a>
+                                    <img src="{{ asset('assets/img/normal/mobile-app-ui-ux.webp') }}"
+                                        alt="Software & Mobile App UI/UX">
+
                                 </div>
                                 <div class="blog-content w-100">
                                     <h4 class="blog-title">Software & Mobile App UI/UX</h4>
@@ -199,9 +199,9 @@
                         <div class="blog-grid-static">
                             <div class="blog-grid">
                                 <div class="blog-img">
-                                    <a href="blog-details.html">
-                                        <img src="{{ asset('assets/img/blog/blog_3_3.png') }}" alt="blog image">
-                                    </a>
+                                    <img src="{{ asset('assets/img/normal/web-design-development.webp') }}"
+                                        alt="Web Design & Development">
+
                                 </div>
                                 <div class="blog-content">
                                     <h4 class="blog-title">Web Design & Development</h4>
