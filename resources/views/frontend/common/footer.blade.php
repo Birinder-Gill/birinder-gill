@@ -9,9 +9,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="footer-top-wrap">
-                        <p class="mb-30">We are digital agency that helps businesses develop immersive and engaging user
-                            experiences</p>
-                        <a href="contact.html" class="btn">
+                        <p class="mb-30">We craft digital experiences that captivate users and transform ideas into powerful, innovative solutions that drive business growth.</p>
+                        <a href="/contact" class="btn">
                             <span class="link-effect">
                                 <span class="effect-1">LET'S TALK WITH US</span>
                                 <span class="effect-1">LET'S TALK WITH US</span>
@@ -26,31 +25,15 @@
                 <div class="col-xxl-6 col-lg-7">
                     <ul class="footer-menu-list">
                         <li>
-                            <a href="about.html">
+                            <a href="/about">
                                 <span class="link-effect">
-                                    <span class="effect-1">ABOUT COMPANY</span>
-                                    <span class="effect-1">ABOUT COMPANY</span>
+                                    <span class="effect-1">ABOUT</span>
+                                    <span class="effect-1">ABOUT</span>
                                 </span>
                             </a>
-                        </li>
+                        </li> 
                         <li>
-                            <a href="project.html">
-                                <span class="link-effect">
-                                    <span class="effect-1">OUR CAREERS</span>
-                                    <span class="effect-1">OUR CAREERS</span>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="service.html">
-                                <span class="link-effect">
-                                    <span class="effect-1">SERVICES</span>
-                                    <span class="effect-1">SERVICES</span>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html">
+                            <a href="/contact">
                                 <span class="link-effect">
                                     <span class="effect-1">CONTACT</span>
                                     <span class="effect-1">CONTACT</span>
@@ -113,11 +96,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 align-self-center text-lg-end">
+                {{-- <div class="col-md-6 align-self-center text-lg-end">
                     <p class="copyright-text">Copyright © 2025
                         <a href="https://themeforest.net/user/themegenix">ThemeGenix</a>
                     </p>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

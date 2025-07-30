@@ -15,14 +15,14 @@
                 <div class="footer-logo">
                     <a href="/"><img src="{{ asset('assets/img/logo-dark.svg') }}" alt="Ovation"></a>
                 </div>
-                <p class="about-text">We are digital agency that helps businesses develop immersive and engaging</p>
+                <p class="about-text">We craft digital experiences that captivate users and transform ideas into powerful, innovative solutions that drive business growth.</p>
                 <div class="sidebar-wrap">
                     <h6>27 Division St, New York,</h6>
                     <h6>NY 10002, USA</h6>
-                </div>
+                </div> 
                 <div class="sidebar-wrap">
-                    <h6><a href="tel:1800123654987">+1 800 123 654 987 </a></h6>
-                    <h6><a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a></h6>
+                    <h6><a href="tel:+91 70091 54010">+91 70091 54010</a></h6>
+                    <h6><a href="mailto:birindergill53@gmail.com">birindergill53@gmail.com</a></h6>
                 </div>
                 <div class="social-btn style2">
                     <a href="https://www.facebook.com/">
@@ -67,51 +67,21 @@
         </div>
         <div class="mobile-menu">
             <ul>
+                <li>
+                    <a href="/">
+                        Home
+                    </a>
+                </li> 
                 <li class="menu-item-has-children">
-                    <a href="#">Home</a>
+                    <a href="#">Services</a>
                     <ul class="sub-menu">
-                        <li class="active"><a href="index.html">Digital Agency</a></li>
-                        <li><a href="home-2.html">Creative Agency</a></li>
-                        <li><a href="home-3.html">Design Studio</a></li>
-                        <li><a href="home-4.html">Digital Marketing</a></li>
-                        <li><a href="home-5.html">Modern Agency</a></li>
-                        <li><a href="home-6.html">Creative Studio</a></li>
-                        <li><a href="home-7.html">Startup Agency</a></li>
-                        <li><a href="home-8.html">Personal Portfolio</a></li>
-                        <li><a href="home-9.html">Portfolio Showcase</a></li>
-                        <li><a href="home-10.html">Interactive Link</a></li>
-                        <li><a href="home-11.html">Showcase Carousel</a></li>
-                        <li><a href="home-12.html">Fullscreen Slideshow</a></li>
+                        <li><a href="/ui-ux-design">UI/UX Design</a></li>
+                        <li><a href="/web-development">Web Development</a></li>
+                        <li><a href="/mobile-development">Mobile Development</a></li>
+                        <li><a href="/digital-marketing">Digital Marketing</a></li>
                     </ul>
                 </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About Page</a></li>
-                        <li class="menu-item-has-children"><a href="service.html">Service Page</a>
-                            <ul class="sub-menu">
-                                <li><a href="service.html">Service Version 1</a></li>
-                                <li><a href="service-2.html">Service Version 2</a></li>
-                                <li><a href="service-3.html">Service Version 3</a></li>
-                                <li><a href="service-details.html">Service Details Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="team.html">Team Page</a></li>
-                        <li><a href="team-details.html">Team Details Page</a></li>
-                        <li><a href="pricing.html">Pricing Page</a></li>
-                        <li class="menu-item-has-children"><a href="shop.html">Shop</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop.html">Shop Page</a></li>
-                                <li><a href="shop-details.html">Shop Details</a></li>
-                                <li><a href="cart.html">Cart Page</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="faq.html">FAQ Page</a></li>
-                        <li><a href="error.html">Error Page</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
+                {{-- <li class="menu-item-has-children">
                     <a href="#">Portfolio</a>
                     <ul class="sub-menu">
                         <li><a href="project.html">Portfolio Masonary</a></li>
@@ -122,14 +92,9 @@
                         <li><a href="project-6.html">Portfolio Interactive</a></li>
                         <li><a href="project-details.html">Portfolio Details</a></li>
                     </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Blog</a>
-                    <ul class="sub-menu">
-                        <li><a href="blog.html">Blog Standard</a></li>
-                        <li><a href="blog-2.html">Blog 2 Column</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
+                </li> --}} 
+                <li>
+                    <a href="/about">About</a>
                 </li>
                 <li>
                     <a href="/contact">Contact</a>
@@ -141,8 +106,8 @@
             <h6>NY 10002, USA</h6>
         </div>
         <div class="sidebar-wrap">
-            <h6><a href="tel:1800123654987">+1 800 123 654 987 </a></h6>
-            <h6><a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a></h6>
+            <h6><a href="tel:+91 70091 54010">+91 70091 54010</a></h6>
+            <h6><a href="mailto:birindergill53@gmail.com">birindergill53@gmail.com</a></h6>
         </div>
         <div class="social-btn style3">
             <a href="https://www.facebook.com/">
@@ -196,6 +161,14 @@
                                         </span>
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="/about">
+                                        <span class="link-effect">
+                                            <span class="effect-1">ABOUT</span>
+                                            <span class="effect-1">ABOUT</span>
+                                        </span>
+                                    </a>
+                                </li> 
                                 <li class="menu-item-has-children">
                                     <a href="#">
                                         <span class="link-effect">
@@ -210,6 +183,7 @@
                                         <li><a href="/digital-marketing">Digital Marketing</a></li>
                                     </ul>
                                 </li>
+                                 
                                 <li>
                                     <a href="/contact">
                                         <span class="link-effect">
@@ -217,7 +191,7 @@
                                             <span class="effect-1">PORTFOLIO</span>
                                         </span>
                                     </a>
-                                </li> 
+                                </li>
                                 <li>
                                     <a href="/contact">
                                         <span class="link-effect">

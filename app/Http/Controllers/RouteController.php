@@ -15,6 +15,11 @@ class RouteController extends Controller
     {
         return view('frontend.contact', ['title' => 'Contact Us']);
     }
+    
+    public function about()
+    {
+        return view('frontend.about', ['title' => 'About Us']);
+    }
 
     public function uiUxDesign()
     {

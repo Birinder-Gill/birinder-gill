@@ -21,10 +21,9 @@
                         </div>
                         <div class="feature-card-details">
                             <h4 class="feature-card-title">
-                                <a href="project.html">Headquarters</a>
+                                <a href="project.html">Address</a>
                             </h4>
-                            <p class="feature-card-text mb-0">27 Division St, New York, </p>
-                            <p class="feature-card-text">NY 10002, USA </p>
+                            <p class="feature-card-text">27 Division St, New York, NY 10002, USA</p> 
 
                             <a href="https://maps.google.com" class="link-btn">
                                 <span class="link-effect">
@@ -45,9 +44,8 @@
                             <h4 class="feature-card-title">
                                 <a href="project.html">Email Address</a>
                             </h4>
-                            <p class="feature-card-text mb-0">frisk.agency@mail.com</p>
-                            <p class="feature-card-text">frisk.agency@mail.com</p>
-                            <a href="mailto:frisk.agency@mail.com" class="link-btn">
+                            <p class="feature-card-text">birindergill53@gmail.com</p>
+                            <a href="mailto:birindergill53@gmail.com" class="link-btn">
                                 <span class="link-effect">
                                     <span class="effect-1">Send message</span>
                                     <span class="effect-1">Send message</span>
@@ -65,11 +63,10 @@
                         <div class="feature-card-details">
                             <h4 class="feature-card-title">
                                 <a href="project.html">Phone Number</a>
-                            </h4>
-                            <p class="feature-card-text mb-0">+1 800 123 654 987 </p>
-                            <p class="feature-card-text">+1 800 223 984 002 </p>
+                            </h4> 
+                            <p class="feature-card-text">+91 70091 54010 </p>
 
-                            <a href="tel:1800123654987" class="link-btn">
+                            <a href="tel:+91 70091 54010" class="link-btn">
                                 <span class="link-effect">
                                     <span class="effect-1">Call anytime</span>
                                     <span class="effect-1">Call anytime</span>
@@ -144,14 +141,12 @@
     <div class="container-fluid p-0 overflow-hidden">
         <div class="slider__marquee clearfix marquee-wrap">
             <div class="marquee_mode marquee__group">
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> We Give Unparalleled
-                        Flexibility</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> We Give Unparalleled
-                        Flexibility</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> We Give Unparalleled
-                        Flexibility</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> We Give Unparalleled
-                        Flexibility</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Expert Web Development Solutions</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Innovative Mobile App Development</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Creative UI/UX Design</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Strategic Digital Marketing</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Scalable Tech Solutions</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Results-Driven Development</a></h6>
             </div>
         </div>
     </div>
