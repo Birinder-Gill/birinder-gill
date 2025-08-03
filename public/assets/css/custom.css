@@ -5,7 +5,7 @@
 
 .custom-tab-title {
     font-size: 2.5rem;
-    font-weight: 600; 
+    font-weight: 600;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -304,7 +304,7 @@
 
 .process-image img {
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -375,8 +375,8 @@
 }
 
 .ui-ux-service-do .blog-img img {
-  height: 302px !important;
-  width: 302px !important;
+    height: 302px !important;
+    width: 302px !important;
 }
 
 /* Solution for Every Stage Section */
@@ -396,7 +396,7 @@
 
 .solution-stage-item:hover {
     border-color: #dee2e6;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .solution-stage-header {
@@ -532,7 +532,6 @@
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     border: 1px solid #f0f0f0;
     height: 100%;
@@ -542,13 +541,12 @@
 
 .portfolio-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-card-banner {
     position: relative;
     overflow: hidden;
-    height: 280px;
+    height: 350px;
 }
 
 .portfolio-card-banner img {
@@ -676,7 +674,7 @@
 
 .tech-stack {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .tech-item {
@@ -693,7 +691,7 @@
     height: 55px;
     position: relative;
     cursor: pointer;
-} 
+}
 
 /* Technology Icons */
 .tech-icon {
@@ -711,29 +709,30 @@
 .tech-item::before {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: 130%;
+    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: black;
+    background: #000000de;
     color: white;
-    padding: 10px 16px;
-    border-radius: 10px;
+    padding: 3px 15px;
+    border-radius: 8px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     white-space: nowrap;
     opacity: 0;
-    visibility: hidden; 
+    visibility: hidden;
     z-index: 1000;
     pointer-events: none;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.5px;
 }
 
-.tech-item:hover::before{
+.tech-item:hover::before {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(-5px);
 }
+
 /* CTA Section */
 .cta-area-1 {
     background: var(--theme-color);
@@ -758,11 +757,11 @@
     .portfolio-card-banner {
         height: 240px;
     }
-    
+
     .portfolio-title {
         font-size: 20px;
     }
-    
+
     .cta-title {
         font-size: 36px;
     }
@@ -772,19 +771,19 @@
     .portfolio-card-content {
         padding: 25px 20px;
     }
-    
+
     .portfolio-card-banner {
         height: 200px;
     }
-    
+
     .portfolio-title {
         font-size: 18px;
     }
-    
+
     .cta-title {
         font-size: 28px;
     }
-    
+
     .tech-item {
         font-size: 12px;
         padding: 5px 12px;

@@ -51,7 +51,7 @@
             <div class="row gy-30">
                 @foreach($projects as $project)
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="portfolio-card wow img-custom-anim-{{ $loop->odd ? 'left' : 'right' }}" data-wow-duration="1.5s" data-wow-delay="{{ $loop->index * 0.1 + 0.1 }}s">
+                    <div class="portfolio-card wow">
                         <div class="portfolio-card-banner">
                             <img src="{{ $project->banner_image_url ?: asset('assets/img/placeholder.jpg') }}" alt="{{ $project->title }}">
                             <div class="portfolio-overlay">
@@ -101,32 +101,6 @@
                 @endforeach
             </div>
         </div>
-    </div>
-
-    {{-- CTA Section --}}
-    <div class="cta-area-1 space bg-theme">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8">
-                    <div class="cta-content text-center">
-                        <h2 class="cta-title wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.1s">
-                            Ready to Start Your Project?
-                        </h2>
-                        <p class="cta-text wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            Let's collaborate to bring your vision to life with innovative design and cutting-edge technology.
-                        </p>
-                        <div class="btn-wrap mt-40">
-                            <a href="/contact" class="btn style2 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                <span class="link-effect">
-                                    <span class="effect-1">START A PROJECT</span>
-                                    <span class="effect-1">START A PROJECT</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> 
 
 @endsection
