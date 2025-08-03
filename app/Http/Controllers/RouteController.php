@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 
 class RouteController extends Controller
@@ -15,10 +16,23 @@ class RouteController extends Controller
     {
         return view('frontend.contact', ['title' => 'Contact Us']);
     }
-    
+
     public function about()
     {
         return view('frontend.about', ['title' => 'About Us']);
+    }
+
+    public function portfolio()
+    {
+        $projects = Project::active()
+            ->featured()
+            ->orderBy('sort_order')
+            ->get();
+
+        return view('frontend.portfolio', [
+            'title' => 'My Portfolio',
+            'projects' => $projects
+        ]);
     }
 
     public function uiUxDesign()

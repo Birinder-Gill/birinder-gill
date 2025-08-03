@@ -81,18 +81,9 @@
                         <li><a href="/digital-marketing">Digital Marketing</a></li>
                     </ul>
                 </li>
-                {{-- <li class="menu-item-has-children">
-                    <a href="#">Portfolio</a>
-                    <ul class="sub-menu">
-                        <li><a href="project.html">Portfolio Masonary</a></li>
-                        <li><a href="project-2.html">Portfolio Pinterest</a></li>
-                        <li><a href="project-3.html">Portfolio Gallery</a></li>
-                        <li><a href="project-4.html">Portfolio Full Width</a></li>
-                        <li><a href="project-5.html">Portfolio Slider</a></li>
-                        <li><a href="project-6.html">Portfolio Interactive</a></li>
-                        <li><a href="project-details.html">Portfolio Details</a></li>
-                    </ul>
-                </li> --}} 
+                <li>
+                    <a href="/portfolio">Portfolio</a>
+                </li>
                 <li>
                     <a href="/about">About</a>
                 </li>
@@ -185,7 +176,7 @@
                                 </li>
                                  
                                 <li>
-                                    <a href="/contact">
+                                    <a href="/portfolio">
                                         <span class="link-effect">
                                             <span class="effect-1">PORTFOLIO</span>
                                             <span class="effect-1">PORTFOLIO</span>

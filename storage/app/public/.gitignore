@@ -1,2 +1,12 @@
-*
 !.gitignore
+!projects/
+!technologies/
+!portfolio/
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.webp
+!*.md
+!.gitkeep
