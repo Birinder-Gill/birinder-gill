@@ -22,6 +22,11 @@ class RouteController extends Controller
         return view('frontend.about', ['title' => 'About Us']);
     }
 
+    public function services()
+    {
+        return view('frontend.services', ['title' => 'Our Services']);
+    }
+
     public function portfolio()
     {
         $projects = Project::active()
@@ -53,5 +58,15 @@ class RouteController extends Controller
     public function digitalMarketing()
     {
         return view('frontend.services.digital_marketing', ['title' => 'Digital Marketing Services']);
+    }
+
+    public function privacyPolicy()
+    {
+        return view('frontend.privacy-policy', ['title' => 'Privacy Policy']);
+    }
+
+    public function termsConditions()
+    {
+        return view('frontend.terms-conditions', ['title' => 'Terms & Conditions']);
     }
 }

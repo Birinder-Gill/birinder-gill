@@ -161,7 +161,7 @@
                                     </a>
                                 </li> 
                                 <li class="menu-item-has-children">
-                                    <a href="#">
+                                    <a href="/services">
                                         <span class="link-effect">
                                             <span class="effect-1">SERVICES</span>
                                             <span class="effect-1">SERVICES</span>
@@ -203,13 +203,13 @@
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
-                            <button type="button" class="search-btn searchBoxToggler"><img
+                            {{-- <button type="button" class="search-btn searchBoxToggler"><img
                                     src="{{ asset('assets/img/icon/search.svg') }}" alt="icon">
                                 <span class="link-effect">
                                     <span class="effect-1">SEARCH</span>
                                     <span class="effect-1">SEARCH</span>
                                 </span>
-                            </button>
+                            </button> --}}
                             <button type="button" class="sidebar-btn sideMenuToggler">
                                 <span class="line"></span>
                                 <span class="line"></span>
