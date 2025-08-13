@@ -31,6 +31,15 @@
                                     <span class="effect-1">ABOUT</span>
                                 </span>
                             </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/services">
+                                <span class="link-effect">
+                                    <span class="effect-1">SERVICES</span>
+                                    <span class="effect-1">SERVICES</span>
+                                </span>
+                            </a>
                         </li> 
                         <li>
                             <a href="/contact">
@@ -45,7 +54,7 @@
                 <div class="col-xxl-6 col-lg-5 text-lg-end">
                     <ul class="footer-menu-list">
                         <li>
-                            <a href="about.html">
+                            <a href="/privacy-policy">
                                 <span class="link-effect">
                                     <span class="effect-1">PRIVACY POLICY</span>
                                     <span class="effect-1">PRIVACY POLICY</span>
@@ -53,7 +62,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="project.html">
+                            <a href="/terms-conditions">
                                 <span class="link-effect">
                                     <span class="effect-1">TERMS & CONDITIONS</span>
                                     <span class="effect-1">TERMS & CONDITIONS</span>

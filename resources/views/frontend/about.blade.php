@@ -14,6 +14,44 @@
         </div>
     </div>
 
+
+
+
+    {{-- About Area --}}
+    <div class="team-details-page-area space">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="team-inner-thumb mb-lg-0 mb-40">
+                        <img class="w-100" src="{{ asset('assets/img/birinder.webp') }}" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="team-details-about-info mb-0">
+                        <h2 class="sec-title mb-3">Transforming Ideas Into Digital Excellence</h2>
+                        <h4 class="team-desig">Crafting Tomorrow's Digital Solutions Today</h4>
+                        <p class="sec-text mt-30">With 6+ years of experience, I transform ideas into powerful digital
+                            solutions that drive real
+                            business growth and deliver measurable results.</p>
+                        <div class="about-contact-wrap mt-35">
+                            <h6 class="about-contact-title"><a
+                                    href="mailto:birindergill53@gmail.com">birindergill53@gmail.com</a></h6>
+                            <h6 class="about-contact-title"><a href="tel:+91 70091 54010">+91 70091 54010</a></h6>
+                            <a href="/contact" class="btn mt-4">
+                                <span class="link-effect">
+                                    <span class="effect-1">LET'S TALK WITH US</span>
+                                    <span class="effect-1">LET'S TALK WITH US</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     {{-- Counter Area --}}
     <div class="counter-area-1 space overflow-hidden">
         <div class="container">
@@ -51,34 +89,7 @@
         </div>
     </div>
 
-
-    {{-- About Area --}}
-    <div class="why-area-1 space bg-theme">
-        <div class="why-img-1-1 shape-mockup wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s"
-            data-right="0" data-top="-100px" data-bottom="140px">
-            <img src="{{ asset('assets/img/birinder.webp') }}" alt="img">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="title-area mb-45">
-                        <h2 class="sec-title">Transforming Ideas Into Digital Excellence</h2>
-                    </div>
-                    <h4>Crafting Tomorrow's Digital Solutions Today</h4>
-                    <p>With 6+ years of experience, I transform ideas into powerful digital solutions that drive real
-                        business growth and deliver measurable results.</p>
-                    <a href="/contact" class="btn mt-4">
-                        <span class="link-effect">
-                            <span class="effect-1">LET'S TALK WITH US</span>
-                            <span class="effect-1">LET'S TALK WITH US</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="team-area-1 space overflow-hidden">
+    {{-- <div class="team-area-1 space overflow-hidden">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -136,5 +147,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection
