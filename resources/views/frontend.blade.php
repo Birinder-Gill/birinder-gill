@@ -41,6 +41,18 @@
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 </head>
 
+@if (app()->environment('production') && env('GA4_PROPERTY_ID'))
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env('GA4_PROPERTY_ID') }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ env('GA4_PROPERTY_ID') }}');
+    </script>
+@endif
+</head>
+
 <body class="@stack('body-class')">
     <div class="preloader">
         <div class="preloader-inner">

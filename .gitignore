@@ -1,18 +1,24 @@
-*.log
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
 .env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-/.fleet
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
-/auth.json
+.env.*
+!.env.example
+
+# Composer dependencies
+/vendor
+composer.lock
+
+# Node dependencies
 /node_modules
+package-lock.json
+
+# Laravel specific
 /public/build
 /public/hot
 /public/storage
@@ -20,9 +26,20 @@
 /storage/app/public/*
 !/storage/app/public/.gitkeep
 /storage/pail
-/vendor
+
+# PHPUnit
+.phpunit.result.cache
+/.phpunit.cache
+
+# IDE/project files
+/.vscode
+/.idea
+/.nova
+/.zed
+/.fleet
+
+# Misc
+auth.json
 Homestead.json
 Homestead.yaml
-Thumbs.db
-composer.lock
-package-lock.json
+.phpactor.json
