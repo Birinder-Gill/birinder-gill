@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Breadcrumb --}}
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg1-6.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('assets/img/bg/contact-us-banner.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Contact</h1>
@@ -82,16 +82,10 @@
 
     {{-- Contact Area --}}
     <div class="contact-area-1 space bg-theme">
-        <div class="contact-map shape-mockup wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-            data-left="0" data-top="-100px" data-bottom="140px">
-            <iframe
-                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=10&output=embed&iwloc=near"
-                allowfullscreen="" loading="lazy"></iframe>
-        </div>
         <div class="container">
-            <div class="row align-items-center justify-content-end">
-                <div class="col-lg-6">
-                    <div class="contact-form-wrap">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form-wrap text-center">
                         <div class="title-area mb-30">
                             <h2 class="sec-title">Have Any Project on Your Mind?</h2>
                             <p>Great! We're excited to hear from you and let's start something</p>

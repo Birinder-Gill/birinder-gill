@@ -234,41 +234,7 @@
                             <p class="policy-text">
                                 If any provision of these Terms is found to be unenforceable or invalid, the remaining provisions shall continue in full force and effect. The invalid provision shall be replaced with a valid provision that most closely reflects the original intent.
                             </p>
-                        </div>
-
-                        {{-- Contact Information --}}
-                        <div class="policy-section">
-                            <h2 class="policy-section-title">15. Contact Information</h2>
-                            <p class="policy-text">
-                                For questions about these Terms and Conditions or to discuss your project requirements, please contact us:
-                            </p>
-                            
-                            <div class="contact-info-box">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="contact-method">
-                                            <h4>Email</h4>
-                                            <p><a href="mailto:birindergill53@gmail.com">birindergill53@gmail.com</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-method">
-                                            <h4>Phone</h4>
-                                            <p><a href="tel:+917009154010">+91 70091 54010</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="contact-method">
-                                    <h4>Business Address</h4>
-                                    <p>27 Division St, New York, NY 10002, USA</p>
-                                </div>
-                                <div class="contact-method">
-                                    <h4>Business Hours</h4>
-                                    <p>Monday - Friday: 9:00 AM - 6:00 PM (EST)<br>
-                                    Saturday - Sunday: Available for urgent matters</p>
-                                </div>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>

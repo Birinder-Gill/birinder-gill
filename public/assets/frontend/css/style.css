@@ -82,7 +82,7 @@
   --theme-color-dark: #1a529f;
   --title-color: #0A0C00;
   --body-color: #0A0C00;
-  --smoke-color: #F6F5F3;
+  --smoke-color: #F3F5F6;
   --smoke-color2: #FFF4EF;
   --smoke-color3: #F5F5F6;
   --smoke-color4: #F4F4F4;
@@ -1394,7 +1394,7 @@ textarea.is-invalid {
 }
 
 .mobile-menu-wrapper .mobile-logo img {
-  height: 35px;
+  height: 32px;
 }
 
 .mobile-menu-wrapper .mobile-logo svg {
@@ -2835,7 +2835,7 @@ body.bg-title .scroll-top::after {
 }
 
 .sub-title {
-  color: var(--theme-color);
+  color: var(--theme-color-dark);
   text-transform: uppercase;
   font-size: 14px;
   position: relative;
