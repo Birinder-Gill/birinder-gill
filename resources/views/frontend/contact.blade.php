@@ -23,7 +23,7 @@
                             <h4 class="feature-card-title">
                                 <a href="project.html">Address</a>
                             </h4>
-                            <p class="feature-card-text">27 Division St, New York, NY 10002, USA</p> 
+                            <p class="feature-card-text">27 Division St, New York, NY 10002, USA</p>
 
                             <a href="https://maps.google.com" class="link-btn">
                                 <span class="link-effect">
@@ -63,7 +63,7 @@
                         <div class="feature-card-details">
                             <h4 class="feature-card-title">
                                 <a href="project.html">Phone Number</a>
-                            </h4> 
+                            </h4>
                             <p class="feature-card-text">+91 70091 54010 </p>
 
                             <a href="tel:+91 70091 54010" class="link-btn">
@@ -90,7 +90,8 @@
                             <h2 class="sec-title">Have Any Project on Your Mind?</h2>
                             <p>Great! We're excited to hear from you and let's start something</p>
                         </div>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <form id="contactForm" action="{{ route('contact.submit') }}" method="POST" class="contact-form">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -112,12 +113,12 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <textarea name="message" placeholder="How Can We Help You*" id="contactForm" class="form-control style-border"></textarea>
+                                        <textarea name="message" placeholder="How Can We Help You*" id="message" class="form-control style-border"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-btn col-12">
-                                <button type="submit" class="btn mt-20">
+                                <button type="submit" class="btn mt-20" id="contactSubmitBtn">
                                     <span class="link-effect">
                                         <span class="effect-1">SEND MESSAGE</span>
                                         <span class="effect-1">SEND MESSAGE</span>
@@ -125,6 +126,13 @@
                                 </button>
                             </div>
                         </form>
+                        <!-- Popup Modal -->
+                        <div id="contactPopup" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.5);z-index:9999;align-items:center;justify-content:center;">
+                            <div style="background:#fff;padding:2rem 2.5rem;border-radius:8px;max-width:90vw;min-width:300px;text-align:center;">
+                                <span id="contactPopupMsg"></span><br>
+                                <button onclick="document.getElementById('contactPopup').style.display='none'" style="margin-top:1rem;" class="btn btn-primary">OK</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,18 +140,45 @@
     </div>
 
     {{-- Marquee Area --}}
-    <div class="container-fluid p-0 overflow-hidden">
-        <div class="slider__marquee clearfix marquee-wrap">
-            <div class="marquee_mode marquee__group">
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Expert Web Development Solutions</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Innovative Mobile App Development</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Creative UI/UX Design</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Strategic Digital Marketing</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Scalable Tech Solutions</a></h6>
-                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Results-Driven Development</a></h6>
-            </div>
-        </div>
-    </div>
+    @include('frontend.common.marquee')
 
-    
+
+@push('scripts')
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
+    console.log('script loaded');
+    e.preventDefault();
+
+    const form = e.target;
+    const btn = document.getElementById('contactSubmitBtn');
+    btn.disabled = true;
+    btn.innerHTML = 'Sending...';
+    const formData = new FormData(form);
+    let data = {};
+    formData.forEach((v, k) => data[k] = v);
+    try {
+        const response = await fetch(form.action, {
+            method: 'POST',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'X-CSRF-TOKEN': form.querySelector('[name=_token]').value,
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        document.getElementById('contactPopupMsg').innerText = result.message || (result.status === 'success' ? 'Message sent!' : 'Failed to send message.');
+        document.getElementById('contactPopup').style.display = 'flex';
+        if(result.status === 'success') form.reset();
+    } catch (err) {
+        document.getElementById('contactPopupMsg').innerText = 'Failed to send message. Please try again.';
+        document.getElementById('contactPopup').style.display = 'flex';
+    }
+    btn.disabled = false;
+    btn.innerHTML = '<span class="link-effect"><span class="effect-1">SEND MESSAGE</span><span class="effect-1">SEND MESSAGE</span></span>';
+});
+</script>
+@endpush
+
 @endsection

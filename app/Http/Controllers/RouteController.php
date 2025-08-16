@@ -2,15 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\WelcomeMail;
 use App\Models\Project;
+use App\Models\ContactMessage;
+use Illuminate\Support\Facades\Mail;
+
 use Illuminate\Http\Request;
 
 class RouteController extends Controller
 {
+
+
     public function index()
     {
         return view('frontend.home', ['title' => 'Home']);
     }
+
 
     public function contact()
     {
@@ -68,5 +75,32 @@ class RouteController extends Controller
     public function termsConditions()
     {
         return view('frontend.terms-conditions', ['title' => 'Terms & Conditions']);
+    }
+
+    public function submitContact(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'website' => 'nullable|url|max:255',
+            'message' => 'required|string',
+        ]);
+
+        // Store in database
+        $contact = ContactMessage::create($validated);
+
+        try {
+            Mail::to($contact->email)->send(new WelcomeMail($contact));
+            $status = 'success';
+            $message = 'Thank you for contacting us! We will get back to you soon.';
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+            $status = 'error';
+            $message = 'Failed to send email. Please try again later.';
+        }
+        if ($request->ajax()) {
+            return response()->json(['status' => $status, 'message' => $message]);
+        }
+        return back()->with($status, $message);
     }
 }

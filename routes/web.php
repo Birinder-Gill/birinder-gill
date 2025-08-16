@@ -5,7 +5,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RouteController::class, 'index']);
 
+
 Route::get('/contact', [RouteController::class, 'contact']);
+
+Route::post('/contact', [RouteController::class, 'submitContact'])->name('contact.submit');
 
 Route::get('/about', [RouteController::class, 'about']);
 
