@@ -28,4 +28,7 @@ Route::get('/privacy-policy', [RouteController::class, 'privacyPolicy']);
 
 Route::get('/terms-conditions', [RouteController::class, 'termsConditions']);
 
+// Email template preview route
+Route::get('/email/welcome/preview', [RouteController::class, 'previewWelcomeEmail']);
+Route::get('/email/contact/preview', [RouteController::class, 'previewContactEmail']);
 

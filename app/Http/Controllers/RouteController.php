@@ -103,4 +103,30 @@ class RouteController extends Controller
         }
         return back()->with($status, $message);
     }
+
+    /**
+     * Preview welcome email template
+     */
+    public function previewWelcomeEmail()
+    {
+        return view('emails.welcome');
+    }
+
+    /**
+     * Preview contact email template
+     */
+    public function previewContactEmail()
+    {
+        // Create a sample contact object for preview
+        $sampleContact = (object) [
+            'name' => 'John Smith',
+            'email' => 'john.smith@example.com',
+            'phone' => '+1 (555) 123-4567',
+            'subject' => 'Website Development Inquiry',
+            'website' => 'https://johnsmith.com',
+            'message' => 'Hi Birinder, I am interested in getting a new website developed for my business. I run a small consulting firm and need a professional website with contact forms, service pages, and a blog section. Could you please provide me with a quote and timeline for this project? I would also like to know about ongoing maintenance and support options. Looking forward to hearing from you soon. Thank you!'
+        ];
+
+        return view('emails.contact', ['contact' => $sampleContact]);
+    }
 }
