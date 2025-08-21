@@ -267,6 +267,146 @@
         </div>
     </div>
 
+    {{-- How We Help Our Clients Section --}}
+    <div class="client-types-area space overflow-hidden" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); position: relative;">
+        <!-- Background Pattern -->
+        <div class="client-types-pattern" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.05; background-image: radial-gradient(circle at 25% 25%, #ffffff 2px, transparent 2px); background-size: 50px 50px;"></div>
+        
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10">
+                    <div class="title-area text-center mb-60">
+                        <span class="sub-title wow fadeInUp" data-wow-delay="0.1s" style="color: var(--theme-color); font-weight: 600;">How We Help</span>
+                        <h2 class="sec-title wow fadeInUp text-white mb-4" data-wow-delay="0.2s">How We Help Our Clients</h2>
+                        <p class="sec-text wow fadeInUp" data-wow-delay="0.3s" style="color: rgba(255,255,255,0.8); font-size: 18px;">We work with diverse clients across industries, tailoring our approach to meet specific needs and drive measurable results</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="client-types-grid">
+                <!-- Thinkers -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">01</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Thinkers</h3>
+                        <span class="client-type-subtitle">idea → product</span>
+                        <p class="client-type-description">From discovery workshops to launch and first-month growth, we translate your vision into validated prototypes and an MVP that attracts early users — so you spend less time guessing and more time learning.</p>
+                    </div>
+                </div>
+
+                <!-- Freelancers -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">02</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Freelancers</h3>
+                        <span class="client-type-subtitle">outsourcing & collaboration</span>
+                        <p class="client-type-description">We act as your trusted extension: white-label development, design sprints and clean handovers that let you take bigger projects, keep deadlines, and protect your client relationships.</p>
+                    </div>
+                </div>
+
+                <!-- Small businesses -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">03</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Small Businesses</h3>
+                        <span class="client-type-subtitle">going online</span>
+                        <p class="client-type-description">Clean, brand-forward websites and simple marketing funnels built to convert local traffic into customers — fast setup, low friction, measurable results.</p>
+                    </div>
+                </div>
+
+                <!-- Broken websites -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">04</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Broken Websites</h3>
+                        <span class="client-type-subtitle">underperforming sites</span>
+                        <p class="client-type-description">Rapid audits and surgical fixes for speed, uptime, security and accessibility so your site stops costing you leads and starts performing again.</p>
+                    </div>
+                </div>
+
+                <!-- Startups -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">05</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Startups</h3>
+                        <span class="client-type-subtitle">pre-seed → Series A</span>
+                        <p class="client-type-description">Tactical engineering, product strategy and analytics-driven iteration to move from idea to repeatable growth without overbuilding.</p>
+                    </div>
+                </div>
+
+                <!-- E-commerce -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">06</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">E-commerce Brands</h3>
+                        <span class="client-type-subtitle">online stores</span>
+                        <p class="client-type-description">End-to-end storefronts, checkout & fulfillment integrations plus conversion experiments designed to increase orders and customer lifetime value.</p>
+                    </div>
+                </div>
+
+                <!-- Content creators -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">07</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Content Creators</h3>
+                        <span class="client-type-subtitle">influencers</span>
+                        <p class="client-type-description">Branded sites with subscriptions, sponsorship landing pages and merch shops that turn attention into steady revenue streams.</p>
+                    </div>
+                </div>
+
+                <!-- Product teams -->
+                <div class="client-type-item wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="client-type-header">
+                        <div class="client-type-number">08</div>
+                        <div class="client-type-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <div class="client-type-content">
+                        <h3 class="client-type-title">Product Teams</h3>
+                        <span class="client-type-subtitle">internal tools</span>
+                        <p class="client-type-description">UX-driven internal apps, dashboards and automations that remove operational bottlenecks and free teams to focus on product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{-- Why Choose Us Section --}}
     <div class="why-choose-area space overflow-hidden">
         <div class="container">
